@@ -26,7 +26,7 @@ fi
 # Install system dependencies
 echo "Installing system dependencies..."
 sudo apt-get update -qq
-sudo apt-get install -y -qq python3-venv libgpiod2 > /dev/null
+sudo apt-get install -y -qq python3-venv python3-libgpiod > /dev/null
 
 # Create venv and install Python packages
 echo "Setting up Python environment..."
